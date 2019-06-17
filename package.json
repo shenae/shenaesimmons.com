@@ -2,6 +2,7 @@
   "name": "shenaesimmons.com",
   "version": "0.1.0",
   "private": true,
+  "build": "react-scripts build && cp build/index.html build/200.html",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -12,6 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "npm run build && mv build/index.html build/200.html && surge build shenae-simmons.surge.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
