@@ -50,8 +50,8 @@ function App() {
         </ul>
       </div>
     </div>
-    <div class="tile is-child box">
-    <img src={image1} alt="me at desk at General Assembly" />
+    <div class="tile is-child">
+    <img src={image1} id="img-profile" alt="me at desk at General Assembly" />
     </div>
   </div>
     </div>

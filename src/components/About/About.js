@@ -6,7 +6,7 @@ class About extends Component {
 
 
   <div>
-    <p>HELLO! I'm Shenae, a front-end developer and graduate of General Assembly's Software Engineering Immersive. </p>
+    <p>Hello! I'm Shenae, a front-end developer and graduate of General Assembly's Software Engineering Immersive. </p>
   </div>
 
 
