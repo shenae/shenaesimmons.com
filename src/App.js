@@ -43,18 +43,29 @@ function App() {
   <div class="tile is-4 is-vertical is-parent">
     <div class="tile is-child box">
       <div class="container">
+      <center>
       <ul class="menu-list">
           <li id="links"><Link to="/resume">Resume</Link></li>
           <li id="links"><Link to="/portfolio">Portfolio</Link></li>
           <li id="links"><Link to="/about">About</Link></li>
         </ul>
+        </center>
       </div>
     </div>
     <div class="tile is-child">
+    <center>
     <img src={image1} id="img-profile" alt="me at desk at General Assembly" />
+    </center>
     </div>
   </div>
     </div>
+    <nav class="breadcrumb is-centered has-bullet-separator" aria-label="breadcrumbs">
+  <ul>
+    <li id="links"><a href="http://www.github.com/shenae" id="title">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/shenae-simmons/" id="title">LinkedIN</a></li>
+    <li><a href="mailto:shhnae@gmail.com" id="title">Contact</a></li>
+  </ul>
+</nav>
     </div>
 
     // color palette purple: #753ECE, dark grey: #4B4453 light grey: #B0A8B9, light purple: #BAA1D5
