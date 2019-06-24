@@ -17,7 +17,22 @@ p {
   font-family: 'courier';
 }
 
+#description {
+  font-size: 10px;
+}
+
+.content {
+  font-family: 'courier';
+}
+
 #img-profile {
   text-align: center;
   border-radius: 100px;
 }
+
+title:hover {
+  color: #4B4453;
+}
+
+
+/* color palette purple: #753ECE, dark grey: #4B4453 light grey: #B0A8B9, light purple: #BAA1D5 */
