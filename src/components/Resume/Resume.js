@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
+import resume from "../Images/Shenae-Simmons-Portfolio-Resume.pdf";
 
 class Resume extends Component {
   render() {
     return (
 
-
   <div>
-    <iframe src="https://docdro.id/E7RR9Zi" width="600" height="800" />
+    <embed src={resume} type="application/pdf" width="400px" height="800px" align="center" />
   </div>
-
-
         );
   }
 }
