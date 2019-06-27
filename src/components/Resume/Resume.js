@@ -6,7 +6,7 @@ class Resume extends Component {
     return (
 
   <div>
-    <iframe src="https://docdro.id/xCzobBg" width="600px" height="800px" align="center" />
+    <iframe src="https://docdro.id/Qixrk1g" width="600px" height="800px" align="center" overflow="scroll"/>
   </div>
         );
   }
