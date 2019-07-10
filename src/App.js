@@ -32,7 +32,7 @@ function App() {
       <div class="container">
       <center>
       <ul class="menu-list">
-          <li id="links"><a href="https://docdro.id/Qixrk1g">Resume</a></li>
+          <li id="links"><a href="https://docdro.id/Qixrk1g" target="blank">Resume</a></li>
           <li id="links"><Link to="/portfolio">Portfolio</Link></li>
           <li id="links"><Link to="/about">About</Link></li>
         </ul>
